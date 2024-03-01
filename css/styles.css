@@ -12,6 +12,10 @@ ul, ol {
     list-style: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -86,19 +90,6 @@ ul, ol {
 
 .features-item {}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .features-subtitle {
     font-weight: 500;
@@ -125,7 +116,13 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
+
+.team-item {
+    background: #fff;
+}
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -159,6 +156,7 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-text {
@@ -179,6 +177,7 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    text-transform: uppercase
 }
 
 .footer-logo-part {
